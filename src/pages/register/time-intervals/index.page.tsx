@@ -22,7 +22,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { ConvertTimeStringToMinutes } from '@/src/utils/convert-time-string-to-minutes'
 import { api } from '@/src/lib/axios'
 import { useRouter } from 'next/router'
-import { NextSeo } from 'next-seo/lib/meta/nextSEO'
+import { NextSeo } from 'next-seo'
 
 const TimeIntervalFormSchema = z.object({
   intervals: z
